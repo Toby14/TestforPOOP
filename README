@@ -1,0 +1,15 @@
+Hello,
+
+These are the command lines that's useful for my Process Object Oriented Programming:
+
+1. git init "a folder name" //Create a folder on your system. This will serve as a local repository which will later be pushed onto the GitHub website
+
+*these following steps have to be in "a folder name" directory*
+2. git add "a file of your choice" //Here we add all the things that need to be pushed onto the website into an index. 
+
+3. git commit -m "some thing about this like a message" //Once all the files are added, we can commit it. This means that we have finalized what additions and/or changes have to be made and they are now ready to be uploaded to our repository.
+
+4. git remote add origin http://github.com/toby14/a folder name.git //Once this is created, we can push the contents of the local repository onto the GitHub repository in your profile.
+
+5.  git push origin master //The final step is to push the local repository contents into the remote host repository (GitHub).
+
