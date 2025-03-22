@@ -1,0 +1,410 @@
+{
+	"info": {
+		"_postman_id": "1bb3ede6-af92-4295-8e0c-a8445cf5c619",
+		"name": "BUMP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "6993160-1bb3ede6-af92-4295-8e0c-a8445cf5c619"
+	},
+	"item": [
+		{
+			"name": "GET customers",
+			"id": "49baf41c-a4ce-44c6-b3a0-dd3dc105fe13",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYWVmMGYwNDdlZGY0ZGNlZGJjODllNzlhNjRiYzZjMzQ0ZmRlZTlmMjQwOGUwNDIxNDkwNDYzMzFlY2U1MTI3ZDZiZjE0YWMxY2MxZmEwMTYiLCJpYXQiOjE3MzkyMjQxNTUuODI2ODg2LCJuYmYiOjE3MzkyMjQxNTUuODI2ODg5LCJleHAiOjE3NzA3NjAxNTUuODEzMjAyLCJzdWIiOiIxMDUiLCJzY29wZXMiOltdfQ.HWYK_DERmGTOPATEO4wych3WQSLuvKykrr_LTYegN2uyGNLMIOkyrm5OP0sDB2wDCZ8mGE7Nz3gkdDIDTWE1pD-Iw20Ai8ITH--8gEu-MoHGDDFc08D57ZdqAiJtZpktqVNYoIElXzYKH-OVAlKyUlHNxRIe3QobD4_lb0iIW243zxzvTa6iLnYavQpd8Tzm1d0VNBpol3Lz7M0XX11ExupFQHoJ7T2GSPN5LIYA9NRhbgTb7msz00HiKMYMnMtKADW93os54gK3c-nOcrgxZKDluCGtoJEPoF6k3S_jW-l6HN_e26He9TyaFGzo0ri7mN4bzL48oT2d3zohYSLziJIDf657Vz0nMXaZ6H4sG5cNHjXokjc31XXEXkVUOY69GPnjWeCqEiz-qoMwKnlQdXp5Y_0bOhjGbldxlqrFzNhIdyOTg9RcYc0SC5VNUvgfpCv0D4he4dovYXQReyUZ_TUxZKItxyxFUgYFruXe4idaz-nF4VzvDRQMFTq-g2IjzTjD-1JLOpdewd3QnHKULSqzo7Y_CEylGJuV2d37W71dE0IWVB64ui-8jwPJRNPgfOTkIHMdWmSagaztxC1yZvav5Ikkkl-Xu1dPcO0sYtNpbvyVKaue8Bmb9fz-InOSBo8Kx4uHGctFKSA2e7YFnCfWyy4vwPIDOwooTmncLgA",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://core-xt-api.bump5050.net/reports/customers?eventId=31",
+					"protocol": "https",
+					"host": [
+						"core-xt-api",
+						"bump5050",
+						"net"
+					],
+					"path": [
+						"reports",
+						"customers"
+					],
+					"query": [
+						{
+							"key": "count",
+							"value": "20",
+							"disabled": true
+						},
+						{
+							"key": "customerId",
+							"value": "9238",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "eventId",
+							"value": "31",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "5dbab2e9-27f3-4da4-9e13-68d8140074e2",
+					"name": "GET customers",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYWVmMGYwNDdlZGY0ZGNlZGJjODllNzlhNjRiYzZjMzQ0ZmRlZTlmMjQwOGUwNDIxNDkwNDYzMzFlY2U1MTI3ZDZiZjE0YWMxY2MxZmEwMTYiLCJpYXQiOjE3MzkyMjQxNTUuODI2ODg2LCJuYmYiOjE3MzkyMjQxNTUuODI2ODg5LCJleHAiOjE3NzA3NjAxNTUuODEzMjAyLCJzdWIiOiIxMDUiLCJzY29wZXMiOltdfQ.HWYK_DERmGTOPATEO4wych3WQSLuvKykrr_LTYegN2uyGNLMIOkyrm5OP0sDB2wDCZ8mGE7Nz3gkdDIDTWE1pD-Iw20Ai8ITH--8gEu-MoHGDDFc08D57ZdqAiJtZpktqVNYoIElXzYKH-OVAlKyUlHNxRIe3QobD4_lb0iIW243zxzvTa6iLnYavQpd8Tzm1d0VNBpol3Lz7M0XX11ExupFQHoJ7T2GSPN5LIYA9NRhbgTb7msz00HiKMYMnMtKADW93os54gK3c-nOcrgxZKDluCGtoJEPoF6k3S_jW-l6HN_e26He9TyaFGzo0ri7mN4bzL48oT2d3zohYSLziJIDf657Vz0nMXaZ6H4sG5cNHjXokjc31XXEXkVUOY69GPnjWeCqEiz-qoMwKnlQdXp5Y_0bOhjGbldxlqrFzNhIdyOTg9RcYc0SC5VNUvgfpCv0D4he4dovYXQReyUZ_TUxZKItxyxFUgYFruXe4idaz-nF4VzvDRQMFTq-g2IjzTjD-1JLOpdewd3QnHKULSqzo7Y_CEylGJuV2d37W71dE0IWVB64ui-8jwPJRNPgfOTkIHMdWmSagaztxC1yZvav5Ikkkl-Xu1dPcO0sYtNpbvyVKaue8Bmb9fz-InOSBo8Kx4uHGctFKSA2e7YFnCfWyy4vwPIDOwooTmncLgA",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://core-xt-api.bump5050.net/reports/customers?eventId=31",
+							"protocol": "https",
+							"host": [
+								"core-xt-api",
+								"bump5050",
+								"net"
+							],
+							"path": [
+								"reports",
+								"customers"
+							],
+							"query": [
+								{
+									"key": "count",
+									"value": "20",
+									"disabled": true
+								},
+								{
+									"key": "customerId",
+									"value": "9238",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "eventId",
+									"value": "31"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.19.4"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 22 Mar 2025 22:58:42 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.12"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "X-Cache",
+							"value": "MISS"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"itemCount\": 20,\n    \"items\": [\n        {\n            \"customerId\": 1,\n            \"firstName\": \"Randal\",\n            \"lastName\": \"Putnam\",\n            \"address\": \"5980 Heckscher Drive\",\n            \"suite\": null,\n            \"city\": \"Jacksonville\",\n            \"state\": \"Florida\",\n            \"zipCode\": \"32226\",\n            \"title\": null,\n            \"email\": \"rmp5448@gmail.com\",\n            \"phoneHome\": \"\",\n            \"phoneWork\": \"\",\n            \"phoneMobile\": \"9044636815\",\n            \"subscriptions\": {\n                \"email\": true,\n                \"sms\": false\n            }\n        },\n        {\n            \"customerId\": 2,\n            \"firstName\": \"Edward\",\n            \"lastName\": \"Namyslowski\",\n            \"address\": \"7610 Altama rd\",\n            \"suite\": null,\n            \"city\": \"Jacksonville\",\n            \"state\": \"FL\",\n            \"zipCode\": \"32216\",\n            \"title\": null,\n            \"email\": \"Namyii@yahoo.com\",\n            \"phoneHome\": \"\",\n            \"phoneWork\": \"\",\n            \"phoneMobile\": \"9044772149\",\n            \"subscriptions\": {\n                \"email\": true,\n                \"sms\": false\n            }\n        },\n        {\n            \"customerId\": 3,\n            \"firstName\": \"Clement\",\n            \"lastName\": \"McDonald\",\n            \"address\": \"6375 Lake Charm Cir\",\n            \"suite\": null,\n            \"city\": \"Oviedo\",\n            \"state\": \"FL\",\n            \"zipCode\": \"32765\",\n            \"title\": null,\n            \"email\": \"clement.mcdonald@gmail.com\",\n            \"phoneHome\": \"\",\n            \"phoneWork\": \"\",\n            \"phoneMobile\": \"4077188647\",\n            \"subscriptions\": {\n                \"email\": true,\n                \"sms\": false\n            }\n        },\n        {\n            \"customerId\": 4,\n            \"firstName\": \"Joshua\",\n            \"lastName\": \"White\",\n            \"address\": \"7520 Taurus Circle West\",\n            \"suite\": null,\n            \"city\": \"Jacksonville\",\n            \"state\": \"Florida\",\n            \"zipCode\": \"32222\",\n            \"title\": null,\n            \"email\": \"devildoc.joshua@gmail.com\",\n            \"phoneHome\": \"\",\n            \"phoneWork\": \"\",\n            \"phoneMobile\": \"9047554513\",\n            \"subscriptions\": {\n                \"email\": true,\n                \"sms\": false\n            }\n        },\n        {\n            \"customerId\": 5,\n            \"firstName\": \"Jaclyn\",\n            \"lastName\": \"Stamos\",\n            \"address\": \"146 cedar circle dr\",\n            \"suite\": null,\n            \"city\": \"Kingsland\",\n            \"state\": \"GA\",\n            \"zipCode\": \"31548\",\n            \"title\": null,\n            \"email\": \"Jaxuscg@yahoo.com\",\n            \"phoneHome\": \"8502589380\",\n            \"phoneWork\": \"\",\n            \"phoneMobile\": \"8502589380\",\n            \"subscriptions\": {\n                \"email\": true,\n                \"sms\": true\n            }\n        },\n        {\n            \"customerId\": 6,\n            \"firstName\": \"David\",\n            \"lastName\": \"Nelson\",\n            \"address\": \"619 Stratford Dr\",\n            \"suite\": null,\n            \"city\": \"DeLand\",\n            \"state\": \"FL\",\n            \"zipCode\": \"32724\",\n            \"title\": null,\n            \"email\": \"Davenelson1228@msn.com\",\n            \"phoneHome\": \"\",\n            \"phoneWork\": \"\",\n            \"phoneMobile\": \"9048598018\",\n            \"subscriptions\": {\n                \"email\": true,\n                \"sms\": true\n            }\n        },\n        {\n            \"customerId\": 7,\n            \"firstName\": \"Randolph\",\n            \"lastName\": \"Gross\",\n            \"address\": \"999 Tall Tree ct\",\n            \"suite\": null,\n            \"city\": \"West Melbourne\",\n            \"state\": \"FL\",\n            \"zipCode\": \"32904\",\n            \"title\": null,\n            \"email\": \"rgross9@fau.edu\",\n            \"phoneHome\": \"\",\n            \"phoneWork\": \"\",\n            \"phoneMobile\": \"3214463446\",\n            \"subscriptions\": {\n                \"email\": true,\n                \"sms\": true\n            }\n        },\n        {\n            \"customerId\": 8,\n            \"firstName\": \"Lisa\",\n            \"lastName\": \"Hiar\",\n            \"address\": \"1320 Point Ct\",\n            \"suite\": null,\n            \"city\": \"Port Orange\",\n            \"state\": \"FL\",\n            \"zipCode\": \"32127\",\n            \"title\": null,\n            \"email\": \"lisachristy805@hotmail.com\",\n            \"phoneHome\": \"2314201929\",\n            \"phoneWork\": \"\",\n            \"phoneMobile\": \"2314201929\",\n            \"subscriptions\": {\n                \"email\": true,\n                \"sms\": true\n            }\n        },\n        {\n            \"customerId\": 9,\n            \"firstName\": \"brian\",\n            \"lastName\": \"oakes\",\n            \"address\": \"151 Oak Cir\",\n            \"suite\": null,\n            \"city\": \"Ocala\",\n            \"state\": \"FL\",\n            \"zipCode\": \"34472\",\n            \"title\": null,\n            \"email\": \"snoozdaddie@gmail.com\",\n            \"phoneHome\": \"\",\n            \"phoneWork\": \"\",\n            \"phoneMobile\": \"3525370012\",\n            \"subscriptions\": {\n                \"email\": true,\n                \"sms\": true\n            }\n        },\n        {\n            \"customerId\": 10,\n            \"firstName\": \"jeffrey\",\n            \"lastName\": \"logan\",\n            \"address\": \"53 Miruela Ave\",\n            \"suite\": null,\n            \"city\": \"St. Augustine\",\n            \"state\": \"FL\",\n            \"zipCode\": \"32080\",\n            \"title\": null,\n            \"email\": \"Jefflogan84@gmail.com\",\n            \"phoneHome\": \"\",\n            \"phoneWork\": \"\",\n            \"phoneMobile\": \"9043153780\",\n            \"subscriptions\": {\n                \"email\": true,\n                \"sms\": true\n            }\n        },\n        {\n            \"customerId\": 11,\n            \"firstName\": \"Joanne\",\n            \"lastName\": \"Pinsky\",\n            \"address\": \"10406 Sparrow Landing Way, Orlando FL\",\n            \"suite\": null,\n            \"city\": \"Orlando\",\n            \"state\": \"FL\",\n            \"zipCode\": \"32832\",\n            \"title\": null,\n            \"email\": \"joanne.fordiani@gmail.com\",\n            \"phoneHome\": \"\",\n            \"phoneWork\": \"\",\n            \"phoneMobile\": \"9548732770\",\n            \"subscriptions\": {\n                \"email\": true,\n                \"sms\": true\n            }\n        },\n        {\n            \"customerId\": 12,\n            \"firstName\": \"Tanya\",\n            \"lastName\": \"Shock\",\n            \"address\": \"2795 Spruce Creek Boulevard\",\n            \"suite\": null,\n            \"city\": \"Port Orange\",\n            \"state\": \"Florida\",\n            \"zipCode\": \"32128\",\n            \"title\": null,\n            \"email\": \"cj_shock@yahoo.com\",\n            \"phoneHome\": \"\",\n            \"phoneWork\": \"\",\n            \"phoneMobile\": \"3862202502\",\n            \"subscriptions\": {\n                \"email\": true,\n                \"sms\": false\n            }\n        },\n        {\n            \"customerId\": 13,\n            \"firstName\": \"Stephen\",\n            \"lastName\": \"Messersmith\",\n            \"address\": \"6434 Willowshire way\",\n            \"suite\": null,\n            \"city\": \"Bradenton\",\n            \"state\": \"FL\",\n            \"zipCode\": \"34212\",\n            \"title\": null,\n            \"email\": \"Montym1@me.com\",\n            \"phoneHome\": \"\",\n            \"phoneWork\": \"\",\n            \"phoneMobile\": \"3013320271\",\n            \"subscriptions\": {\n                \"email\": true,\n                \"sms\": false\n            }\n        },\n        {\n            \"customerId\": 14,\n            \"firstName\": \"Abraham\",\n            \"lastName\": \"Joseph\",\n            \"address\": \"279 Morning Mist Lane\",\n            \"suite\": null,\n            \"city\": \"Saint Johns\",\n            \"state\": \"FL\",\n            \"zipCode\": \"32259\",\n            \"title\": null,\n            \"email\": \"jozaam1@live.com\",\n            \"phoneHome\": \"\",\n            \"phoneWork\": \"\",\n            \"phoneMobile\": \"8139448211\",\n            \"subscriptions\": {\n                \"email\": true,\n                \"sms\": false\n            }\n        },\n        {\n            \"customerId\": 15,\n            \"firstName\": \"Anita\",\n            \"lastName\": \"Russell\",\n            \"address\": \"2425 Gaylord Dr\",\n            \"suite\": null,\n            \"city\": \"DeLand\",\n            \"state\": \"FL\",\n            \"zipCode\": \"32724\",\n            \"title\": null,\n            \"email\": \"arussell.bb@gmail.com\",\n            \"phoneHome\": \"\",\n            \"phoneWork\": \"\",\n            \"phoneMobile\": \"2295600117\",\n            \"subscriptions\": {\n                \"email\": true,\n                \"sms\": false\n            }\n        },\n        {\n            \"customerId\": 16,\n            \"firstName\": \"Sherrilee\",\n            \"lastName\": \"Jarvis\",\n            \"address\": \"82 Dawn Dr.\",\n            \"suite\": null,\n            \"city\": \"Ormond Beach\",\n            \"state\": \"Florida\",\n            \"zipCode\": \"32176\",\n            \"title\": null,\n            \"email\": \"sherrileesjarvis@gmail.com\",\n            \"phoneHome\": \"\",\n            \"phoneWork\": \"\",\n            \"phoneMobile\": \"3868520083\",\n            \"subscriptions\": {\n                \"email\": true,\n                \"sms\": false\n            }\n        },\n        {\n            \"customerId\": 17,\n            \"firstName\": \"Deren\",\n            \"lastName\": \"Leeson\",\n            \"address\": \"16 S Lakewood Dr\",\n            \"suite\": null,\n            \"city\": \"Orlando\",\n            \"state\": \"Florida\",\n            \"zipCode\": \"32803\",\n            \"title\": null,\n            \"email\": \"derenleeson@hotmail.com\",\n            \"phoneHome\": \"4074682447\",\n            \"phoneWork\": \"4074682447\",\n            \"phoneMobile\": \"4074682447\",\n            \"subscriptions\": {\n                \"email\": true,\n                \"sms\": false\n            }\n        },\n        {\n            \"customerId\": 18,\n            \"firstName\": \"Joseph\",\n            \"lastName\": \"Caslin\",\n            \"address\": \"3060 Parrish Rd\",\n            \"suite\": null,\n            \"city\": \"Titusville\",\n            \"state\": \"FL\",\n            \"zipCode\": \"32796\",\n            \"title\": null,\n            \"email\": \"joecaslinpainting@yahoo.com\",\n            \"phoneHome\": \"3212133685\",\n            \"phoneWork\": \"\",\n            \"phoneMobile\": \"3212133685\",\n            \"subscriptions\": {\n                \"email\": true,\n                \"sms\": true\n            }\n        },\n        {\n            \"customerId\": 19,\n            \"firstName\": \"Joseph\",\n            \"lastName\": \"Caslin\",\n            \"address\": \"43 Beaver Ave\",\n            \"suite\": null,\n            \"city\": \"Beaver Dams\",\n            \"state\": \"NY\",\n            \"zipCode\": \"14812\",\n            \"title\": null,\n            \"email\": \"joecaz2@yahoo.com\",\n            \"phoneHome\": \"3212133685\",\n            \"phoneWork\": \"\",\n            \"phoneMobile\": \"3212133685\",\n            \"subscriptions\": {\n                \"email\": true,\n                \"sms\": true\n            }\n        },\n        {\n            \"customerId\": 20,\n            \"firstName\": \"Sean\",\n            \"lastName\": \"Kelly\",\n            \"address\": \"5585 Cypress Hill Rd\",\n            \"suite\": null,\n            \"city\": \"Winter Garden\",\n            \"state\": \"FL\",\n            \"zipCode\": \"34787\",\n            \"title\": null,\n            \"email\": \"kellsd0327@gmail.com\",\n            \"phoneHome\": \"4076566683\",\n            \"phoneWork\": \"\",\n            \"phoneMobile\": \"4074923861\",\n            \"subscriptions\": {\n                \"email\": true,\n                \"sms\": true\n            }\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "GET Event",
+			"id": "d23f64bb-7dd9-4c41-be47-d77c9f157f87",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYWVmMGYwNDdlZGY0ZGNlZGJjODllNzlhNjRiYzZjMzQ0ZmRlZTlmMjQwOGUwNDIxNDkwNDYzMzFlY2U1MTI3ZDZiZjE0YWMxY2MxZmEwMTYiLCJpYXQiOjE3MzkyMjQxNTUuODI2ODg2LCJuYmYiOjE3MzkyMjQxNTUuODI2ODg5LCJleHAiOjE3NzA3NjAxNTUuODEzMjAyLCJzdWIiOiIxMDUiLCJzY29wZXMiOltdfQ.HWYK_DERmGTOPATEO4wych3WQSLuvKykrr_LTYegN2uyGNLMIOkyrm5OP0sDB2wDCZ8mGE7Nz3gkdDIDTWE1pD-Iw20Ai8ITH--8gEu-MoHGDDFc08D57ZdqAiJtZpktqVNYoIElXzYKH-OVAlKyUlHNxRIe3QobD4_lb0iIW243zxzvTa6iLnYavQpd8Tzm1d0VNBpol3Lz7M0XX11ExupFQHoJ7T2GSPN5LIYA9NRhbgTb7msz00HiKMYMnMtKADW93os54gK3c-nOcrgxZKDluCGtoJEPoF6k3S_jW-l6HN_e26He9TyaFGzo0ri7mN4bzL48oT2d3zohYSLziJIDf657Vz0nMXaZ6H4sG5cNHjXokjc31XXEXkVUOY69GPnjWeCqEiz-qoMwKnlQdXp5Y_0bOhjGbldxlqrFzNhIdyOTg9RcYc0SC5VNUvgfpCv0D4he4dovYXQReyUZ_TUxZKItxyxFUgYFruXe4idaz-nF4VzvDRQMFTq-g2IjzTjD-1JLOpdewd3QnHKULSqzo7Y_CEylGJuV2d37W71dE0IWVB64ui-8jwPJRNPgfOTkIHMdWmSagaztxC1yZvav5Ikkkl-Xu1dPcO0sYtNpbvyVKaue8Bmb9fz-InOSBo8Kx4uHGctFKSA2e7YFnCfWyy4vwPIDOwooTmncLgA",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://core-xt-api.bump5050.net/reports/events?count=5000",
+					"protocol": "https",
+					"host": [
+						"core-xt-api",
+						"bump5050",
+						"net"
+					],
+					"path": [
+						"reports",
+						"events"
+					],
+					"query": [
+						{
+							"key": "count",
+							"value": "5000",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Event Detail",
+			"id": "285e0f59-5c39-4fe9-97c5-d11028c9e7ba",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYWVmMGYwNDdlZGY0ZGNlZGJjODllNzlhNjRiYzZjMzQ0ZmRlZTlmMjQwOGUwNDIxNDkwNDYzMzFlY2U1MTI3ZDZiZjE0YWMxY2MxZmEwMTYiLCJpYXQiOjE3MzkyMjQxNTUuODI2ODg2LCJuYmYiOjE3MzkyMjQxNTUuODI2ODg5LCJleHAiOjE3NzA3NjAxNTUuODEzMjAyLCJzdWIiOiIxMDUiLCJzY29wZXMiOltdfQ.HWYK_DERmGTOPATEO4wych3WQSLuvKykrr_LTYegN2uyGNLMIOkyrm5OP0sDB2wDCZ8mGE7Nz3gkdDIDTWE1pD-Iw20Ai8ITH--8gEu-MoHGDDFc08D57ZdqAiJtZpktqVNYoIElXzYKH-OVAlKyUlHNxRIe3QobD4_lb0iIW243zxzvTa6iLnYavQpd8Tzm1d0VNBpol3Lz7M0XX11ExupFQHoJ7T2GSPN5LIYA9NRhbgTb7msz00HiKMYMnMtKADW93os54gK3c-nOcrgxZKDluCGtoJEPoF6k3S_jW-l6HN_e26He9TyaFGzo0ri7mN4bzL48oT2d3zohYSLziJIDf657Vz0nMXaZ6H4sG5cNHjXokjc31XXEXkVUOY69GPnjWeCqEiz-qoMwKnlQdXp5Y_0bOhjGbldxlqrFzNhIdyOTg9RcYc0SC5VNUvgfpCv0D4he4dovYXQReyUZ_TUxZKItxyxFUgYFruXe4idaz-nF4VzvDRQMFTq-g2IjzTjD-1JLOpdewd3QnHKULSqzo7Y_CEylGJuV2d37W71dE0IWVB64ui-8jwPJRNPgfOTkIHMdWmSagaztxC1yZvav5Ikkkl-Xu1dPcO0sYtNpbvyVKaue8Bmb9fz-InOSBo8Kx4uHGctFKSA2e7YFnCfWyy4vwPIDOwooTmncLgA",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://core-xt-api.bump5050.net/reports/events/details?count=1&eventId=31",
+					"protocol": "https",
+					"host": [
+						"core-xt-api",
+						"bump5050",
+						"net"
+					],
+					"path": [
+						"reports",
+						"events",
+						"details"
+					],
+					"query": [
+						{
+							"key": "count",
+							"value": "1"
+						},
+						{
+							"key": "maxDate",
+							"value": "2023-08-23",
+							"description": "based on startDate",
+							"disabled": true
+						},
+						{
+							"key": "minDate",
+							"value": "2025-10-01",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "eventId",
+							"value": "33",
+							"description": "Pick Your Driver",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "eventId",
+							"value": "31",
+							"description": "2025 Daytona 500 50/50",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET sales",
+			"id": "0553856b-43cb-4278-a315-58dda882e0ce",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYWVmMGYwNDdlZGY0ZGNlZGJjODllNzlhNjRiYzZjMzQ0ZmRlZTlmMjQwOGUwNDIxNDkwNDYzMzFlY2U1MTI3ZDZiZjE0YWMxY2MxZmEwMTYiLCJpYXQiOjE3MzkyMjQxNTUuODI2ODg2LCJuYmYiOjE3MzkyMjQxNTUuODI2ODg5LCJleHAiOjE3NzA3NjAxNTUuODEzMjAyLCJzdWIiOiIxMDUiLCJzY29wZXMiOltdfQ.HWYK_DERmGTOPATEO4wych3WQSLuvKykrr_LTYegN2uyGNLMIOkyrm5OP0sDB2wDCZ8mGE7Nz3gkdDIDTWE1pD-Iw20Ai8ITH--8gEu-MoHGDDFc08D57ZdqAiJtZpktqVNYoIElXzYKH-OVAlKyUlHNxRIe3QobD4_lb0iIW243zxzvTa6iLnYavQpd8Tzm1d0VNBpol3Lz7M0XX11ExupFQHoJ7T2GSPN5LIYA9NRhbgTb7msz00HiKMYMnMtKADW93os54gK3c-nOcrgxZKDluCGtoJEPoF6k3S_jW-l6HN_e26He9TyaFGzo0ri7mN4bzL48oT2d3zohYSLziJIDf657Vz0nMXaZ6H4sG5cNHjXokjc31XXEXkVUOY69GPnjWeCqEiz-qoMwKnlQdXp5Y_0bOhjGbldxlqrFzNhIdyOTg9RcYc0SC5VNUvgfpCv0D4he4dovYXQReyUZ_TUxZKItxyxFUgYFruXe4idaz-nF4VzvDRQMFTq-g2IjzTjD-1JLOpdewd3QnHKULSqzo7Y_CEylGJuV2d37W71dE0IWVB64ui-8jwPJRNPgfOTkIHMdWmSagaztxC1yZvav5Ikkkl-Xu1dPcO0sYtNpbvyVKaue8Bmb9fz-InOSBo8Kx4uHGctFKSA2e7YFnCfWyy4vwPIDOwooTmncLgA",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://core-xt-api.bump5050.net/reports/events?count=5000",
+					"protocol": "https",
+					"host": [
+						"core-xt-api",
+						"bump5050",
+						"net"
+					],
+					"path": [
+						"reports",
+						"events"
+					],
+					"query": [
+						{
+							"key": "count",
+							"value": "5000",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET sales customers",
+			"id": "52fdc2de-163f-482e-a6e8-a8d35b39c053",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYWVmMGYwNDdlZGY0ZGNlZGJjODllNzlhNjRiYzZjMzQ0ZmRlZTlmMjQwOGUwNDIxNDkwNDYzMzFlY2U1MTI3ZDZiZjE0YWMxY2MxZmEwMTYiLCJpYXQiOjE3MzkyMjQxNTUuODI2ODg2LCJuYmYiOjE3MzkyMjQxNTUuODI2ODg5LCJleHAiOjE3NzA3NjAxNTUuODEzMjAyLCJzdWIiOiIxMDUiLCJzY29wZXMiOltdfQ.HWYK_DERmGTOPATEO4wych3WQSLuvKykrr_LTYegN2uyGNLMIOkyrm5OP0sDB2wDCZ8mGE7Nz3gkdDIDTWE1pD-Iw20Ai8ITH--8gEu-MoHGDDFc08D57ZdqAiJtZpktqVNYoIElXzYKH-OVAlKyUlHNxRIe3QobD4_lb0iIW243zxzvTa6iLnYavQpd8Tzm1d0VNBpol3Lz7M0XX11ExupFQHoJ7T2GSPN5LIYA9NRhbgTb7msz00HiKMYMnMtKADW93os54gK3c-nOcrgxZKDluCGtoJEPoF6k3S_jW-l6HN_e26He9TyaFGzo0ri7mN4bzL48oT2d3zohYSLziJIDf657Vz0nMXaZ6H4sG5cNHjXokjc31XXEXkVUOY69GPnjWeCqEiz-qoMwKnlQdXp5Y_0bOhjGbldxlqrFzNhIdyOTg9RcYc0SC5VNUvgfpCv0D4he4dovYXQReyUZ_TUxZKItxyxFUgYFruXe4idaz-nF4VzvDRQMFTq-g2IjzTjD-1JLOpdewd3QnHKULSqzo7Y_CEylGJuV2d37W71dE0IWVB64ui-8jwPJRNPgfOTkIHMdWmSagaztxC1yZvav5Ikkkl-Xu1dPcO0sYtNpbvyVKaue8Bmb9fz-InOSBo8Kx4uHGctFKSA2e7YFnCfWyy4vwPIDOwooTmncLgA",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://core-xt-api.bump5050.net/reports/sales/customers?count=1",
+					"protocol": "https",
+					"host": [
+						"core-xt-api",
+						"bump5050",
+						"net"
+					],
+					"path": [
+						"reports",
+						"sales",
+						"customers"
+					],
+					"query": [
+						{
+							"key": "count",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Locations",
+			"id": "0135da06-315e-4913-90ac-9e7d393798c9",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYWVmMGYwNDdlZGY0ZGNlZGJjODllNzlhNjRiYzZjMzQ0ZmRlZTlmMjQwOGUwNDIxNDkwNDYzMzFlY2U1MTI3ZDZiZjE0YWMxY2MxZmEwMTYiLCJpYXQiOjE3MzkyMjQxNTUuODI2ODg2LCJuYmYiOjE3MzkyMjQxNTUuODI2ODg5LCJleHAiOjE3NzA3NjAxNTUuODEzMjAyLCJzdWIiOiIxMDUiLCJzY29wZXMiOltdfQ.HWYK_DERmGTOPATEO4wych3WQSLuvKykrr_LTYegN2uyGNLMIOkyrm5OP0sDB2wDCZ8mGE7Nz3gkdDIDTWE1pD-Iw20Ai8ITH--8gEu-MoHGDDFc08D57ZdqAiJtZpktqVNYoIElXzYKH-OVAlKyUlHNxRIe3QobD4_lb0iIW243zxzvTa6iLnYavQpd8Tzm1d0VNBpol3Lz7M0XX11ExupFQHoJ7T2GSPN5LIYA9NRhbgTb7msz00HiKMYMnMtKADW93os54gK3c-nOcrgxZKDluCGtoJEPoF6k3S_jW-l6HN_e26He9TyaFGzo0ri7mN4bzL48oT2d3zohYSLziJIDf657Vz0nMXaZ6H4sG5cNHjXokjc31XXEXkVUOY69GPnjWeCqEiz-qoMwKnlQdXp5Y_0bOhjGbldxlqrFzNhIdyOTg9RcYc0SC5VNUvgfpCv0D4he4dovYXQReyUZ_TUxZKItxyxFUgYFruXe4idaz-nF4VzvDRQMFTq-g2IjzTjD-1JLOpdewd3QnHKULSqzo7Y_CEylGJuV2d37W71dE0IWVB64ui-8jwPJRNPgfOTkIHMdWmSagaztxC1yZvav5Ikkkl-Xu1dPcO0sYtNpbvyVKaue8Bmb9fz-InOSBo8Kx4uHGctFKSA2e7YFnCfWyy4vwPIDOwooTmncLgA",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://core-xt-api.bump5050.net/reports/sales/customers?count=1",
+					"protocol": "https",
+					"host": [
+						"core-xt-api",
+						"bump5050",
+						"net"
+					],
+					"path": [
+						"reports",
+						"sales",
+						"customers"
+					],
+					"query": [
+						{
+							"key": "count",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET nonprofits",
+			"id": "24843556-48eb-4a18-b6c3-e8766c4cf693",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYWVmMGYwNDdlZGY0ZGNlZGJjODllNzlhNjRiYzZjMzQ0ZmRlZTlmMjQwOGUwNDIxNDkwNDYzMzFlY2U1MTI3ZDZiZjE0YWMxY2MxZmEwMTYiLCJpYXQiOjE3MzkyMjQxNTUuODI2ODg2LCJuYmYiOjE3MzkyMjQxNTUuODI2ODg5LCJleHAiOjE3NzA3NjAxNTUuODEzMjAyLCJzdWIiOiIxMDUiLCJzY29wZXMiOltdfQ.HWYK_DERmGTOPATEO4wych3WQSLuvKykrr_LTYegN2uyGNLMIOkyrm5OP0sDB2wDCZ8mGE7Nz3gkdDIDTWE1pD-Iw20Ai8ITH--8gEu-MoHGDDFc08D57ZdqAiJtZpktqVNYoIElXzYKH-OVAlKyUlHNxRIe3QobD4_lb0iIW243zxzvTa6iLnYavQpd8Tzm1d0VNBpol3Lz7M0XX11ExupFQHoJ7T2GSPN5LIYA9NRhbgTb7msz00HiKMYMnMtKADW93os54gK3c-nOcrgxZKDluCGtoJEPoF6k3S_jW-l6HN_e26He9TyaFGzo0ri7mN4bzL48oT2d3zohYSLziJIDf657Vz0nMXaZ6H4sG5cNHjXokjc31XXEXkVUOY69GPnjWeCqEiz-qoMwKnlQdXp5Y_0bOhjGbldxlqrFzNhIdyOTg9RcYc0SC5VNUvgfpCv0D4he4dovYXQReyUZ_TUxZKItxyxFUgYFruXe4idaz-nF4VzvDRQMFTq-g2IjzTjD-1JLOpdewd3QnHKULSqzo7Y_CEylGJuV2d37W71dE0IWVB64ui-8jwPJRNPgfOTkIHMdWmSagaztxC1yZvav5Ikkkl-Xu1dPcO0sYtNpbvyVKaue8Bmb9fz-InOSBo8Kx4uHGctFKSA2e7YFnCfWyy4vwPIDOwooTmncLgA",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://core-xt-api.bump5050.net/reports/nonprofits",
+					"protocol": "https",
+					"host": [
+						"core-xt-api",
+						"bump5050",
+						"net"
+					],
+					"path": [
+						"reports",
+						"nonprofits"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
